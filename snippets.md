@@ -113,3 +113,30 @@ $Response.Content
   </params>
 </methodResponse>
 ```
+Помещаем тело ответа (параметры результата) в хеш-таблицу (ассоциативный массив):
+```powershell
+function toHash($str) {
+  $xml = [xml]$str
+  $arr = $xml.methodResponse.params.param.value.struct.member
+  $hash = @{}
+  for ($i = 0; $i -lt $arr.Length; $i++) {
+    $hash[$arr[$i].name] = $arr[$i].value.FirstChild."#text"
+  }
+  return $hash
+}
+```
+```powershell
+$params = toHash($Response.Content)
+```
+```powershell
+$params
+```
+Пример содержимого полученной хеш-таблицы (ассоциативного массива):
+```
+Name           Value
+----           -----
+challenge      c0:1674770400:1048:60:yeM13Zf4UeujVPDIapTv:03d7b6a66990e95ba17ced533b9b98d2
+auth_scheme    c0
+expire_time    1674771508
+server_time    1674771448
+```

@@ -1,7 +1,10 @@
 # powershell-livejournal
 Общение с «[LiveJournal.com](https://www.livejournal.com/about/)» (сокращенно «LJ»; по-русски «Живой Журнал», сокращенно «ЖЖ») по сети из PowerShell. Я пишу [статьи по этой теме](https://ilyachalov.livejournal.com/316277.html) в своем блоге, а здесь собираюсь хранить фрагменты кода (сниппеты) и ссылки для работы с «LiveJournal.com» по сети из командной строки в программе-оболочке «PowerShell».
 
-Фрагменты кода: «[snippets.md](snippets.md)».
+Фрагменты кода (сниппеты):
+
+- [snippets-flat.md](snippets-flat.md) (для работы через [интерфейс «flat»](https://stat.livejournal.com/doc/server/ljp.csp.flat.protocol.html));
+- [snippets-xmlrpc.md](snippets-xmlrpc.md) (для работы через [интерфейс «XML-RPC»](https://stat.livejournal.com/doc/server/ljp.csp.xml-rpc.protocol.html)).
 
 Я работаю в операционной системе «Windows 10». Использую программу-оболочку «[PowerShell](https://github.com/PowerShell/PowerShell)» версии 7 и программу-«эмулятор терминала» «[Windows Terminal](https://github.com/Microsoft/Terminal)» версии 1.17.
 

@@ -113,7 +113,7 @@ $Response.Content
   </params>
 </methodResponse>
 ```
-Помещаем тело ответа (параметры результата) в хеш-таблицу (ассоциативный массив):
+Помещаем тело ответа (параметры результата) в хеш-таблицу (ассоциативный массив) с помощью класса «[System.Xml.XmlDocument](https://learn.microsoft.com/en-us/dotnet/api/system.xml.xmldocument)» платформы «[.NET](https://learn.microsoft.com/en-us/dotnet/)»:
 ```powershell
 function toHash($str) {
   $xml = [xml]$str

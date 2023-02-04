@@ -3,6 +3,8 @@
 
 Фрагменты кода: «[snippets.md](snippets.md)».
 
+Я работаю в операционной системе «Windows 10». Использую программу-оболочку «PowerShell» версии 7 и программу-«эмулятор терминала» «Windows Terminal» версии 1.17.
+
 ## Полезные ссылки
 
 - [документация протокола общения](https://stat.livejournal.com/doc/server/ljp.csp.protocol.html) с «LiveJournal.com»;

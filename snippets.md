@@ -12,7 +12,7 @@ $Response = Invoke-WebRequest -URI "https://www.livejournal.com/interface/flat" 
 ```powershell
 $Response.Content
 ```
-Пример ответа:
+Пример тела ответа:
 ```
 auth_scheme
 c0
@@ -42,7 +42,7 @@ $Response = Invoke-WebRequest -URI "https://www.livejournal.com/interface/xmlrpc
 ```powershell
 $Response.Content
 ```
-Пример ответа:
+Пример тела ответа:
 ```
 <?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><struct><member><name>auth_scheme</name><value><string>c0</string></value></member><member><name>server_time</name><value><int>1674771448</int></value></member><member><name>challenge</name><value><string>c0:1674770400:1048:60:yeM13Zf4UeujVPDIapTv:03d7b6a66990e95ba17ced533b9b98d2</string></value></member><member><name>expire_time</name><value><int>1674771508</int></value></member></struct></value></param></params></methodResponse>
 ```

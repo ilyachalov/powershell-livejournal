@@ -3,7 +3,7 @@
 
 Фрагменты кода: «[snippets.md](snippets.md)».
 
-Я работаю в операционной системе «Windows 10». Использую программу-оболочку «[PowerShell](https://github.com/PowerShell/PowerShell)» версии 7 и программу-«эмулятор терминала» «Windows Terminal» версии 1.17.
+Я работаю в операционной системе «Windows 10». Использую программу-оболочку «[PowerShell](https://github.com/PowerShell/PowerShell)» версии 7 и программу-«эмулятор терминала» «[Windows Terminal](https://github.com/Microsoft/Terminal)» версии 1.17.
 
 ## Полезные ссылки
 

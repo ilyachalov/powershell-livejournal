@@ -1,4 +1,4 @@
-## HTTP(S)-запрос и ответ по [интерфейсу «flat»](https://stat.livejournal.com/doc/server/ljp.csp.flat.protocol.html)
+## HTTP(S)-запрос и ответ по [интерфейсу «flat»](https://stat.livejournal.com/doc/server/ljp.csp.flat.protocol.html) без аутентификации
 
 ```powershell
 $body = @{
@@ -53,7 +53,7 @@ success        OK
 auth_scheme    c0
 ```
 
-## HTTP(S)-запрос и ответ по [интерфейсу «XML-RPC»](https://stat.livejournal.com/doc/server/ljp.csp.xml-rpc.protocol.html)
+## HTTP(S)-запрос и ответ по [интерфейсу «XML-RPC»](https://stat.livejournal.com/doc/server/ljp.csp.xml-rpc.protocol.html) без аутентификации
 
 ```powershell
 $body = @"

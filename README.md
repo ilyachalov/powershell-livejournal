@@ -10,6 +10,8 @@
 
 ![](pwsh-lj-http-request-example.png)
 
+Из программы-оболочки «PowerShell» удобно пользоваться классами платформы «[.NET](https://learn.microsoft.com/en-us/dotnet/)», я часто использую эту возможность в сниппетах.
+
 ## Полезные ссылки
 
 - [документация протокола общения](https://stat.livejournal.com/doc/server/ljp.csp.protocol.html) с «LiveJournal.com»;

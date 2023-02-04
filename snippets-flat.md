@@ -52,3 +52,9 @@ server_time    1674767854
 success        OK
 auth_scheme    c0
 ```
+
+## Простейшая («[clear](https://stat.livejournal.com/doc/server/ljp.csp.auth.clear.html)») аутентификация
+
+### Через входной параметр «password»
+
+### Через входной параметр «hpassword»

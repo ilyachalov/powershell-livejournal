@@ -78,5 +78,17 @@ $params["events_1_event"]
 ```
 %D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D0%BE%D1%82%2014.04.2015%20%D0%B3.%20%D0%9D%D0%B0%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD.%0D%0A%0D%0A%C2%AB%D0%9A%D0%B0%D0%BA%20%D1%83%D0%BF%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%20%D0%B2%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%20%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%B0%C2%BB%20%28%D1%81%29.%0D%0A%0D%0A%3Ca%20href%3D%22https%3A%2F%2Fimg-fotki.yandex.ru%2Fget%2F4608%2F102249717.9%2F0_de845_6a44b264_orig.jpg%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fimg-fotki.yandex.ru%2Fget%2F4608%2F102249717.9%2F0_de845_6a44b264_orig.jpg%22%20width%3D%22900%22%20height%3D%22599%22%20%2F%3E%3C%2Fa%3E
 ```
+Раскодирование текста поста из процентной кодировки в кодировку UTF-8 с помощью метода «[UrlDecode](https://learn.microsoft.com/en-us/dotnet/api/system.web.httputility.urldecode)» класса «[System.Web.HttpUtility](https://learn.microsoft.com/en-us/dotnet/api/system.web.httputility)» платформы «[.NET](https://learn.microsoft.com/en-us/dotnet/)»:
+```powershell
+[System.Web.HttpUtility]::UrlDecode($params["events_1_event"])
+```
+Результат раскодирования:
+```
+Снимок от 14.04.2015 г. На телефон.
+
+«Как упоительны в России вечера» (с).
+
+<a href="https://img-fotki.yandex.ru/get/4608/102249717.9/0_de845_6a44b264_orig.jpg"><img src="https://img-fotki.yandex.ru/get/4608/102249717.9/0_de845_6a44b264_orig.jpg" width="900" height="599" /></a>
+```
 
 ### Через входной параметр «hpassword»

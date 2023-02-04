@@ -5,6 +5,8 @@
 
 Я работаю в операционной системе «Windows 10». Использую программу-оболочку «[PowerShell](https://github.com/PowerShell/PowerShell)» версии 7 и программу-«эмулятор терминала» «[Windows Terminal](https://github.com/Microsoft/Terminal)» версии 1.17.
 
+![](pwsh-lj-http-request-example.png)
+
 ## Полезные ссылки
 
 - [документация протокола общения](https://stat.livejournal.com/doc/server/ljp.csp.protocol.html) с «LiveJournal.com»;

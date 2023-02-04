@@ -92,3 +92,33 @@ $params["events_1_event"]
 ```
 
 ### Через входной параметр «hpassword»
+
+Получение [хеш-суммы](https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%88-%D1%81%D1%83%D0%BC%D0%BC%D0%B0) пароля с помощью командлета «[Get-FileHash](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash)»:
+```powershell
+function getHash($str, $alg) {
+  $stringAsStream = [System.IO.MemoryStream]::new()
+  $writer = [System.IO.StreamWriter]::new($stringAsStream)
+  $writer.write($str)
+  $writer.Flush()
+  $stringAsStream.Position = 0
+  (Get-FileHash -InputStream $stringAsStream -Algorithm $alg).Hash
+}
+```
+Пример получения хеш-суммы для строки `"пароль"` по [алгоритму «MD5»](https://ru.wikipedia.org/wiki/MD5):
+```powershell
+getHash "пароль" "MD5"
+```
+```
+E242F36F4F95F12966DA8FA2EFD59992
+```
+Пример хеш-таблицы с входными параметрами для получения одного определенного поста из журнала (блога):
+```powershell
+$body = @{
+  mode = "getevents"
+  user = "vbgtut"
+  hpassword = "E242F36F4F95F12966DA8FA2EFD59992"
+  selecttype = "one"
+  itemid = "148"
+  ver = "1"
+}
+```

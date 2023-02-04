@@ -7,5 +7,6 @@
 
 - [документация протокола общения](https://stat.livejournal.com/doc/server/ljp.csp.protocol.html) с «LiveJournal.com»;
 - [правила](https://www.livejournal.com/bots/) «LiveJournal.com» для роботов;
+- [пользовательское соглашение](https://www.livejournal.com/legal/tos-ru.bml) «LiveJournal.com» (обратить внимание на **пункт 9.2.6**);
 - [спецификация](http://xmlrpc.com/spec.md) протокола XML-RPC;
 - [документация](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest) командлета `Invoke-WebRequest`.

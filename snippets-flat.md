@@ -68,5 +68,15 @@ $body = @{
   ver = "1"
 }
 ```
+Отправка HTTP(S)-запроса, получение ответа и извлечение из тела ответа текста поста:
+```
+$Response = Invoke-WebRequest -URI "https://www.livejournal.com/interface/flat" -Body $body -Method "POST"
+$params = toHash($Response.Content)
+$params["events_1_event"]
+```
+Пример текста поста (возвращается перекодированным в [процентную кодировку](https://ru.wikipedia.org/wiki/URL#%D0%9A%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_URL), которая используется в URL-адресах):
+```
+%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D0%BE%D1%82%2014.04.2015%20%D0%B3.%20%D0%9D%D0%B0%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD.%0D%0A%0D%0A%C2%AB%D0%9A%D0%B0%D0%BA%20%D1%83%D0%BF%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%20%D0%B2%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%20%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%B0%C2%BB%20%28%D1%81%29.%0D%0A%0D%0A%3Ca%20href%3D%22https%3A%2F%2Fimg-fotki.yandex.ru%2Fget%2F4608%2F102249717.9%2F0_de845_6a44b264_orig.jpg%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fimg-fotki.yandex.ru%2Fget%2F4608%2F102249717.9%2F0_de845_6a44b264_orig.jpg%22%20width%3D%22900%22%20height%3D%22599%22%20%2F%3E%3C%2Fa%3E
+```
 
 ### Через входной параметр «hpassword»

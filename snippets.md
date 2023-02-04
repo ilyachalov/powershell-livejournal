@@ -1,4 +1,4 @@
-## HTTP(S)-запрос и HTTP(S)-ответ по [интерфейсу «flat»](https://stat.livejournal.com/doc/server/ljp.csp.flat.protocol.html)
+## HTTP(S)-запрос и ответ по [интерфейсу «flat»](https://stat.livejournal.com/doc/server/ljp.csp.flat.protocol.html)
 
 ```powershell
 $body = @{
@@ -26,7 +26,7 @@ success
 OK
 ```
 
-## HTTP(S)-запрос и HTTP(S)-ответ по [интерфейсу «XML-RPC»](https://stat.livejournal.com/doc/server/ljp.csp.xml-rpc.protocol.html)
+## HTTP(S)-запрос и ответ по [интерфейсу «XML-RPC»](https://stat.livejournal.com/doc/server/ljp.csp.xml-rpc.protocol.html)
 
 ```powershell
 $body = @"

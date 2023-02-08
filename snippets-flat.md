@@ -101,7 +101,7 @@ function getHash($str, $alg) {
   $writer.write($str)
   $writer.Flush()
   $stringAsStream.Position = 0
-  (Get-FileHash -InputStream $stringAsStream -Algorithm $alg).Hash
+  (Get-FileHash -InputStream $stringAsStream -Algorithm $alg).Hash.ToLower()
 }
 ```
 Пример получения хеш-суммы для строки `"пароль"` по [алгоритму «MD5»](https://ru.wikipedia.org/wiki/MD5):

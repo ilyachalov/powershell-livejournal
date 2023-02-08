@@ -109,14 +109,14 @@ function getHash($str, $alg) {
 getHash "пароль" "MD5"
 ```
 ```
-E242F36F4F95F12966DA8FA2EFD59992
+e242f36f4f95f12966da8fa2efd59992
 ```
 Пример хеш-таблицы с входными параметрами для получения одного определенного поста из журнала (блога):
 ```powershell
 $body = @{
   mode = "getevents"
   user = "vbgtut"
-  hpassword = "E242F36F4F95F12966DA8FA2EFD59992"
+  hpassword = "e242f36f4f95f12966da8fa2efd59992"
   selecttype = "one"
   itemid = "148"
   ver = "1"

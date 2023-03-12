@@ -1,5 +1,5 @@
 # powershell-livejournal
-Общение с «[LiveJournal.com](https://www.livejournal.com/about/)» (сокращенно «LJ»; по-русски «Живой Журнал», сокращенно «ЖЖ») по сети из PowerShell. Я пишу [статьи по этой теме](https://ilyachalov.livejournal.com/316277.html) в своем блоге, а здесь собираюсь хранить фрагменты кода (сниппеты) и ссылки для работы с «LiveJournal.com» по сети из командной строки в программе-оболочке «PowerShell».
+Общение с «[LiveJournal.com](https://www.livejournal.com/about/)» (сокращенно «LJ»; по-русски «Живой Журнал», сокращенно «ЖЖ») по сети из PowerShell. Я пишу [статьи по этой теме](https://ilyachalov.livejournal.com/316277.html) в своем блоге. Здесь собираюсь хранить фрагменты кода (сниппеты) и ссылки для работы с «LiveJournal.com» по сети из командной строки в программе-оболочке «PowerShell».
 
 Фрагменты кода (сниппеты):
 

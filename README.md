@@ -31,3 +31,8 @@
 - [пользовательское соглашение](https://www.livejournal.com/legal/tos-ru.bml) «LiveJournal.com» (обратить внимание на **пункт 9.2.6**);
 - [спецификация](http://xmlrpc.com/spec.md) протокола XML-RPC;
 - [документация](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest) командлета `Invoke-WebRequest`.
+
+Статьи:
+
+- [PowerShell и LiveJournal (ЖЖ): три способа аутентификации](https://habr.com/ru/post/717914/)&nbsp;— моя статья на «Хабре» от 20 февраля 2023 г.;
+- [Основы работы с сервером livejournal.com](https://jenyay.net/Programming/LJServer)&nbsp;— статья Евгения Ильина от 14 октября 2007 г.

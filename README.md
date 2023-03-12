@@ -34,5 +34,5 @@
 
 Статьи:
 
-- [PowerShell и LiveJournal (ЖЖ): три способа аутентификации](https://habr.com/ru/post/717914/)&nbsp;— моя статья на «Хабре» от 20 февраля 2023 г.;
-- [Основы работы с сервером livejournal.com](https://jenyay.net/Programming/LJServer)&nbsp;— статья Евгения Ильина от 14 октября 2007 г.
+- [PowerShell и LiveJournal (ЖЖ): три способа аутентификации](https://habr.com/ru/post/717914/)&nbsp;— моя статья на «Хабре» от 20 фев.2023&nbsp;г.;
+- [Основы работы с сервером livejournal.com](https://jenyay.net/Programming/LJServer)&nbsp;— статья Евгения Ильина от 14 окт.2007&nbsp;г.

@@ -201,7 +201,7 @@ while ($tableSL | Where-Object { $null -eq $_.downloaded }) {
   if ($params["success"] -ne "OK") {
     Write-Error "$($params["success"]): $($params["errmsg"])"; return
   }
-  if (!(Test-Path -Path ".\$user\")) {
+  if (!(Test-Path -Path ".\$user\$folder\")) {
     New-Item -ItemType "directory" -Path ".\$user\$folder\" | Out-Null
   }
   $datetime = ($lastsync) ? $lastsync : "1970-01-01 00:00:00"

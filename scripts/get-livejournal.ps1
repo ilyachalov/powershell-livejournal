@@ -101,6 +101,8 @@ function toEventsTable($hashT) {
         $row.$colName = $Matches[1]
       } elseif ($colName -eq "itemid") {
         $row.$colName = [int]$val
+      } elseif ($colName -in "security", "allowmask") {
+        # пока не учитываю эти поля, они — для постов с ограниченным доступом
       } else {
         $row.$colName = $val
       }

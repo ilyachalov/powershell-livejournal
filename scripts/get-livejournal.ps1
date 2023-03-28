@@ -245,4 +245,4 @@ if ($params["success"] -ne "OK") {
 #  ОКОНЧАНИЕ ГЛАВНОЙ ЧАСТИ СКРИПТА
 
 $endTime = Get-Date
-"Работа выполнена за " + ($endTime - $startTime).Seconds + " сек."
+"Работа выполнена за " + ($endTime - $startTime).TotalSeconds + " сек."

@@ -37,4 +37,5 @@ _Программа-оболочка «PowerShell» версии 7.3.3, прог
 Статьи:
 
 - [PowerShell и LiveJournal (ЖЖ): три способа аутентификации](https://habr.com/ru/post/717914/)&nbsp;— моя статья на «Хабре» от 20 фев.2023&nbsp;г.;
-- [Основы работы с сервером livejournal.com](https://jenyay.net/Programming/LJServer)&nbsp;— статья Евгения Ильина от 14 окт.2007&nbsp;г.
+- [Основы работы с сервером livejournal.com](https://jenyay.net/Programming/LJServer)&nbsp;— статья Евгения Ильина от 14 окт.2007&nbsp;г.;
+- [PowerShell и LiveJournal (ЖЖ): скачивание постов журнала](https://habr.com/ru/post/724412/)&nbsp;— моя статья на «Хабре» от 23 мар.2023&nbsp;г.

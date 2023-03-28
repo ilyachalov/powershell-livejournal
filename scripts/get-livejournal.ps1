@@ -219,6 +219,8 @@ while ($tableSL | Where-Object { $null -eq $_.downloaded }) {
   }
   $downloaded = $tableSL | Where-Object { $true -eq $_.downloaded }
   $lastsync = ($downloaded.time | Measure-Object -Maximum).Maximum
+  $d = Get-Date $lastsync  #  Добавляю 1 секунду: убираю дубликаты постов из результата
+  $lastsync = $d.AddSeconds(1).ToString("yyyy-MM-dd HH:mm:ss")
 }
 
 #  Завершение сессии по ее идентификатору
